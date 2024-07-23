@@ -1,0 +1,10 @@
+baseurl: ""
+url: ""
+title: Sunn's website
+author: Sunn
+email: thelynxmic@gmail.com
+desc: >-
+  Sunn's personal website!
+
+plugins:
+  - jekyll-feed

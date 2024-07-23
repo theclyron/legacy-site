@@ -1,0 +1,20 @@
+- name: Lynxmic
+  type: channel
+  desc: my tech channel! 600+ subs and growing! new videos every 1-2 times per month
+  logo: lynxmic
+  btn_name: Visit
+  btn_link: https://youtube.com/@Lynxmic
+
+- name: NightskyArchive
+  type: channel
+  desc: your typical YouTube video archive
+  logo: nightsky
+  btn_name: Visit
+  btn_link: https://youtube.com/@NightskyArchive
+
+- name: Venus
+  type: discord bot
+  desc: an ambitious multi-purpose Discord bot I started in 2018 but briefly discontinued a year later
+  logo: venus
+  btn_name: Source code
+  btn_link: https://github.com/Lynxmic/Venus

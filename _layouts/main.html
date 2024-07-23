@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>{{ page.title }} ~ {{ site.title }}</title>
+        <link rel="icon" type="image/png" href="../img/sparkle.svg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ page.url }}">
+        <meta property="og:title" content="{{ site.name }}">
+        <meta property="og:image" content="../img/sparkle.svg">
+        <meta property="og:description" content="{{ site.desc }}">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+        <link rel="stylesheet" href="http://localhost:4000/css/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="logo">
+        <a href="/"><img src="../img/wordmark.svg"></a>
+        </div>
+        <div class="content">
+            <div class="navbar">
+                <a href="/">Home</a> • <a href="/blog">Blog</a>
+            </div>
+        {{ content }}
+        <footer>
+            <p>© 2024 {{ site.author }} ꞏ The <a href="https://github.com/sunn-ia32/sunn-ia32.github.io">source code</a> of this website is licensed under MIT.</p>
+            <p><i>have a nice day!~</i></p>
+            <img src="../img/8831/valid-any.gif">
+        </footer>
+        </div>
+    </body>
+</html>

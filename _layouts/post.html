@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>{{ page.title }} ~ {{ site.title }}</title>
+        <link rel="icon" type="image/png" href="/img/sparkle.svg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ page.url }}">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:image" content="/img/sparkle.svg">
+        <meta property="og:description" content="{{ page.desc }}">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="logo">
+        <a href="/"><img src="/img/wordmark.svg"></a>
+        </div>
+        <div class="content">
+            <div class="blognavbar">
+                <a class="navbtn" href="/blog" title="Back to blog"><i class="fas fa-arrow-left"></i></a>
+                <div class="page">
+                <h1 style="margin: 0;">{{ page.title }}</h1>
+                <span>{{ page.date | date_to_string }}</span>
+                </div>
+                <a class="navbtn" href="/feed.xml" title="Subscribe to RSS"><i class="fas fa-rss"></i></a>
+            </div>
+        {{ content }}
+    </body>
+</html>
