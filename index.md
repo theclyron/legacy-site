@@ -3,7 +3,9 @@ title: Home
 layout: main
 ---
 # Hi there! 👋 
-heya! I am **Sunnville**, also sometimes known as **Sunn** or **sunn.ia32**! just a gateway for me to the internet, hope you enjoy! :3
+heya! I am **Clyron**! just a gateway for me to the internet, hope you enjoy! :3
+
+*This is a temporary website, a permanent iteration is being worked on. Site will also migrate soon to different address.*
 
 # Projects
     {% for project in site.data.projects %}
@@ -21,10 +23,10 @@ heya! I am **Sunnville**, also sometimes known as **Sunn** or **sunn.ia32**! jus
     {% endfor %}
 
 # Find me on...
-* **Discord** - `sunnville`
-* **Discord Server** - [Lynxmic][1]
+* **Discord** - `clyron.tar.gz`
+* **Discord Server** - [LynxPlaza][1] (server for the Lynxmic YT channel)
 * **Fediverse** - <a rel="me" href="https://wetdry.world/@sunn">@sunn@wetdry.world</a>
-* **YouTube** - [Sunnville][2]
+* **YouTube** - [Clyron][2]
 * **GitHub** - [sunn-ia32][3]
 
 ---
