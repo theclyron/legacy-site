@@ -27,7 +27,7 @@ heya! I am **Clyron**! just a gateway for me to the internet, hope you enjoy! :3
 * **Discord Server** - [LynxPlaza][1] (server for the Lynxmic YT channel)
 * **Fediverse** - <a rel="me" href="https://wetdry.world/@sunn">@sunn@wetdry.world</a>
 * **YouTube** - [Clyron][2]
-* **GitHub** - [sunn-ia32][3]
+* **GitHub** - [theclyron][3]
 
 ---
 
