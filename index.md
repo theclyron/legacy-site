@@ -32,5 +32,5 @@ heya! I am **Clyron**! just a gateway for me to the internet, hope you enjoy! :3
 ---
 
 [1]: https://discord.gg/wDxDKJU2sj
-[2]: https://youtube.com/@sunn.ia32
-[3]: https://github.com/sunn-ia32
+[2]: https://youtube.com/@Clyron
+[3]: https://github.com/theclyron
