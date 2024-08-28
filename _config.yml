@@ -1,10 +1,10 @@
 baseurl: ""
 url: ""
-title: Sunn's website
-author: Sunn
+title: Clyron
+author: Clyron
 email: thelynxmic@gmail.com
 desc: >-
-  Sunn's personal website!
+  Clyron's personal website!
 
 plugins:
   - jekyll-feed

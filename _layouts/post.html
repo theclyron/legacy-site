@@ -10,21 +10,17 @@
         <meta property="og:image" content="/img/sparkle.svg">
         <meta property="og:description" content="{{ page.desc }}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
-        <link rel="stylesheet" href="/css/style.css" type="text/css">
+        <link rel="stylesheet" href="/css/post.css" type="text/css">
     </head>
     <body>
-        <div class="logo">
-        <a href="/"><img src="/img/wordmark.svg"></a>
-        </div>
-        <div class="content">
-            <div class="blognavbar">
-                <a class="navbtn" href="/blog" title="Back to blog"><i class="fas fa-arrow-left"></i></a>
-                <div class="page">
-                <h1 style="margin: 0;">{{ page.title }}</h1>
-                <span>{{ page.date | date_to_string }}</span>
-                </div>
-                <a class="navbtn" href="/feed.xml" title="Subscribe to RSS"><i class="fas fa-rss"></i></a>
+        <div class="window">
+            <div class="title" style="position: absolute">
+                {{ page.title }} &bull; {{ page.date | date_to_string }}
             </div>
-        {{ content }}
+            <div class="content">
+                <a href="/blog">Back to homepage</a>
+                {{ content }}
+            </div>
+        </div>
     </body>
 </html>

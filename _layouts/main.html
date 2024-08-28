@@ -10,22 +10,21 @@
         <meta property="og:image" content="../img/sparkle.svg">
         <meta property="og:description" content="{{ site.desc }}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
-        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <link rel="stylesheet" href="http://localhost:4000/css/style.css" type="text/css">
     </head>
     <body>
-        <div class="logo">
-        <a href="/"><img src="../img/wordmark.svg"></a>
-        </div>
-        <div class="content">
-            <div class="navbar">
-                <a href="/">Home</a> • <a href="/blog">Blog</a>
+        <div class="window">
+            <div class="title" style="position: absolute">
+                Clyron
             </div>
-        {{ content }}
-        <footer>
-            <p>© 2024 {{ site.author }} ꞏ The <a href="https://github.com/theclyron/theclyron.github.io">source code</a> of this website is licensed under MIT.</p>
-            <p><i>have a nice day!~</i></p>
-            <img src="../img/8831/valid-any.gif">
-        </footer>
+            <div class="content">
+                {{ content }}
+                <div class="footer">
+                    <div>
+                    <img src="../img/8831/valid-any.gif">
+                    </div>
+                    </div>
+            </div>
         </div>
     </body>
 </html>

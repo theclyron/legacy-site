@@ -3,34 +3,29 @@ title: Home
 layout: main
 ---
 # Hi there! 👋 
-heya! I am **Clyron**! just a gateway for me to the internet, hope you enjoy! :3
+heya! I am **Clyron**! This is just a basic personal website, where you can find my projects or socials.
 
-*This is a temporary website, a permanent iteration is being worked on. Site will also migrate soon to different address.*
-
-# Projects
-    {% for project in site.data.projects %}
-<div class="card">
-    <div class="card-image">
-        <img src="./img/projects/{{ project.logo }}.svg">
-    </div>
-    <div class="card-content">
-        <h2 style="margin-bottom: 0;">{{ project.name }}</h2>
-        <span style="text-transform: capitalize;">{{ project.type }}</span>
-        <p>{{ project.desc }}</p>
-        <a class="button" href="{{ project.btn_link }}">{{ project.btn_name }}</a>
-    </div>
-</div>
-    {% endfor %}
+Also, feel free to check out [my blog][7]!
 
 # Find me on...
 * **Discord** - `clyron.tar.gz`
-* **Discord Server** - [LynxPlaza][1] (server for the Lynxmic YT channel)
 * **Fediverse** - <a rel="me" href="https://wetdry.world/@sunn">@sunn@wetdry.world</a>
 * **YouTube** - [Clyron][2]
-* **GitHub** - [theclyron][3]
+* **GitHub** - [theclyron][5]
+
+# Projects
+* **Lynxmic** - my tech channel! 800+ subs and growing! new videos every at least 1-2 times per month ([visit][3], [discord server][1])
+* **NightskyArchive** - your typical YouTube video archive ([visit][4])
+* **Venus** - discontinued multi-purpose Discord bot active in 2018-19, with some ambition ([source code][6])
+
+more soon as I start more :P
 
 ---
 
 [1]: https://discord.gg/wDxDKJU2sj
 [2]: https://youtube.com/@Clyron
-[3]: https://github.com/theclyron
+[3]: https://youtube.com/@Lynxmic
+[4]: https://youtube.com/@NightskyArchive
+[5]: https://github.com/theclyron
+[6]: https://github.com/theclyron/Venus
+[7]: /blog/
