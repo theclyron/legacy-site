@@ -9,7 +9,7 @@ Also, feel free to check out [my blog][7]!
 
 # Find me on...
 * **Discord** - `clyron.tar.gz`
-* **Fediverse** - <a rel="me" href="https://wetdry.world/@sunn">@sunn@wetdry.world</a>
+* **Fediverse** - <a rel="me" href="https://wetdry.world/@clyron">@clyron@wetdry.world</a>
 * **YouTube** - [Clyron][2]
 * **GitHub** - [theclyron][5]
 
