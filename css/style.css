@@ -14,12 +14,11 @@ html, body {
 .window {
     background-color: #1c3982;
     margin-top: 3%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
     border: 2px solid;
     border-radius: 5px 5px 5px 5px;
     border-color: black;
-    max-height: 750px;
 }
 
 .title {
@@ -49,10 +48,22 @@ code {
     background-color: #d3d2c9;
     margin: 5px;
     padding-left: 5px;
-    max-height: 750px;
 }
 
 .footer {
     text-align: center;
     margin: 1px;
+}
+
+@media only screen 
+and (min-width: 768px)
+{ 
+    .window {
+        margin-left: 15%;
+        margin-right: 15%;
+        max-height: 750px;
+    }
+    .content {
+        max-height: 750px;
+    }
 }
