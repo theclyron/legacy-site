@@ -6,7 +6,7 @@
 html, body {
     background-color: #3a6ea5;
     color: #2e2e2e;
-    font-family: 'Bahnschrift', Arial, Helvetica, sans-serif;
+    font-family: 'Bahnschrift', Tahoma, sans-serif;
     font-weight: lighter;
     font-size: large;
 }
@@ -60,5 +60,12 @@ and (min-width: 768px)
         margin-left: 15%;
         margin-right: 15%;
     }
+}
+
+@media (min-width: 1024px) {
+    img {
+     width: 60%;
+     height: auto;
+  }
 }
 

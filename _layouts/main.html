@@ -18,6 +18,7 @@
                 Clyron
             </div>
             <div class="content">
+                <h1 id="greeting"><noscript>Hi there! 👋</noscript></h1>
                 {{ content }}
                 <div class="footer">
                     <div>
@@ -26,5 +27,15 @@
                     </div>
             </div>
         </div>
+        <div id="snowflakes-container">
+            <div class="snowflakes" id="snowflakes" aria-hidden="true">
+              <div class="snowflake"></div>
+              <div class="snowflake"></div>
+              <div class="snowflake"></div>
+              <div class="snowflake"></div>
+              <div class="snowflake"></div>
+            </div>
+          </div>
+        <script type="text/javascript" src="{{ site.baseurl }}/js/holiday.js"></script>
     </body>
 </html>

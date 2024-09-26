@@ -2,7 +2,6 @@
 title: Home
 layout: main
 ---
-# Hi there! 👋 
 heya! I am **Clyron**! This is just a basic personal website, where you can find my projects or socials.
 
 Also, feel free to check out [my blog][7]!
