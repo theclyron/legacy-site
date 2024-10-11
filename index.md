@@ -8,7 +8,10 @@ Also, feel free to check out [my blog][7]!
 
 # Find me on...
 * **Discord** - `clyron.tar.gz`
-* **Fediverse** - <a rel="me" href="https://wetdry.world/@clyron">@clyron@wetdry.world</a>
+* **Fediverse**:
+   * **Mastodon** (main) - <a rel="me" href="https://wetdry.world/@clyron">@clyron@wetdry.world</a>
+   * **Akkoma** (alt) - [@clyron@labyrinth.zone][8]
+* **Bluesky** - [@clyron.bsky.social][9]
 * **YouTube** - [Clyron][2]
 * **GitHub** - [theclyron][5]
 
@@ -28,3 +31,5 @@ more soon as I start more :P
 [5]: https://github.com/theclyron
 [6]: https://github.com/theclyron/Venus
 [7]: /blog/
+[8]: https://labyrinth.zone/clyron
+[9]: https://bsky.app/profile/clyron.bsky.social
