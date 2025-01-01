@@ -18,17 +18,12 @@ Also, feel free to check out [my blog][7]!
 
 # Projects
 * **Lynxmic** - my tech channel! 1K+ subs and growing! new videos every at least 1-2 times per month ([visit][3])
-* **NightskyArchive** - your typical YouTube video archive ([visit][4])
-* **Venus** - discontinued multi-purpose Discord bot active in 2018-19, with some ambition ([source code][6])
-
-more soon as I start more :P
 
 ---
 
 [1]: https://discord.gg/wDxDKJU2sj
 [2]: https://youtube.com/@Clyron
 [3]: https://youtube.com/@Lynxmic
-[4]: https://youtube.com/@NightskyArchive
 [5]: https://github.com/theclyron
 [6]: https://github.com/theclyron/Venus
 [7]: /blog/
